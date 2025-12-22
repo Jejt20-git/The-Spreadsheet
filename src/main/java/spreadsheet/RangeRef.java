@@ -12,8 +12,8 @@ public class RangeRef implements Expression {
         this.end = end;
     }
 
-    public Coordinate getStart() { return start; }
-    public Coordinate getEnd() { return end; }
+    //public Coordinate getStart() { return start; }
+    //public Coordinate getEnd() { return end; }
 
     public List<Coordinate> expand() {
         List<Coordinate> coords = new ArrayList<>();

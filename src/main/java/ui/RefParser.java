@@ -1,4 +1,3 @@
-// src/main/java/ui/RefParser.java
 package ui;
 
 import spreadsheet.Coordinate;

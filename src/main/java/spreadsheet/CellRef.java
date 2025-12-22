@@ -7,7 +7,7 @@ public class CellRef implements Expression {
 
     public String ref() { return ref; }
 
-    // Convert "A1" -> Coordinate(row=1, col=1)
+    // Convert "A1" to  Coordinate(row=1, col=1)
     public Coordinate toCoordinate() {
         if (ref == null) throw new IllegalArgumentException("Null cell reference");
 
@@ -31,7 +31,7 @@ public class CellRef implements Expression {
         }
         if (row <= 0) throw new IllegalArgumentException("Invalid cell reference: " + ref);
 
-        // Your Coordinate constructor is (rowIndex, colIndex)
+        // Coordinate constructor is (rowIndex, colIndex)
         return new Coordinate(row, col);
     }
 }

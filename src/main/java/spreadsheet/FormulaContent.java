@@ -6,5 +6,4 @@ public class FormulaContent extends Content {
         super(raw);
     }
 
-    // For task 1/2: NO parsing, NO expression tree, NO evaluation.
 }

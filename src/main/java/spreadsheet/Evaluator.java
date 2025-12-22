@@ -38,7 +38,7 @@ public class Evaluator {
         if (e instanceof CellRef c) {
             Coordinate coord = c.toCoordinate();
 
-            // ✅ LOOP DETECTION
+            // Loop Detection
             if (visiting.contains(coord)) {
                 throw new IllegalStateException("Circular reference detected at " + c.ref());
             }

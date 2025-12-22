@@ -4,7 +4,7 @@ public class Cell {
     private final Coordinate coordinate;
     private Content content;
 
-    // Step 9: caching + invalidation
+
     private boolean dirty = true;
     private Double cachedValue = null;
     private Expression cachedExpr = null;

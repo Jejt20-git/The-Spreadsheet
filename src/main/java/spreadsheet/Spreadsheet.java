@@ -42,8 +42,8 @@ public class Spreadsheet {
                 tracker.setDependencies(coordinate, collectDependencies(expr));
 
             } catch (Exception ex) {
-                // Do NOT crash the application.
-                // Formula errors will be reported later during evaluation/display.
+                // Do not crash the application.
+                // Formula errors will be reported later
             }
         }
 

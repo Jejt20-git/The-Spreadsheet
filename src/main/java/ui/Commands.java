@@ -42,7 +42,7 @@ public class Commands {
 
     // --- Startup actions ---
     public void newSpreadsheet() {
-        // If you ever add a "clear all" method, you could reset the sheet here.
+        // clear all method, could reset the sheet here.
         // For now, assume Main passes a fresh Spreadsheet.
         sessionStarted = true;
         dirty = false;
@@ -84,7 +84,7 @@ public class Commands {
             content = new TextContent(raw);
         }
 
-        // ✅ Single call that both sets the cell and returns affected cells
+        // Single call that both sets the cell and returns affected cells
         List<Coordinate> affected = sheet.setCellAndGetAffected(coord, content);
 
         dirty = true;
