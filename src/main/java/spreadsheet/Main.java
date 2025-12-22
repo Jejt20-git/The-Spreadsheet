@@ -7,7 +7,7 @@ import spreadsheet.IO.sv2Serializer;
 public class Main {
 
     //-------------------------------------------------------------------
-    // ---------------- USER INTERFACE IMPLEMENTATION (Uncomment for UI use) ------------------------------------
+    // ---------------- USER INTERFACE IMPLEMENTATION (Comment/Uncomment for UI use) ------------------------------------
     public static void main(String[] args) {
         Spreadsheet sheet = new Spreadsheet();
         ui.SpreadsheetUI ui = new ui.SpreadsheetUI(sheet);
