@@ -28,6 +28,12 @@
             <version>5.9.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>expression-factory</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
