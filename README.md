@@ -83,4 +83,6 @@ To build:
 
 ---
 ## Use of the UI
-There is a text based UI implemented, that can work either with creating a new spreadsheet, or by loading a previously made one (can be seen in git as Testx.sv2. Currently the main does not run the UI but rather some example data entries. To implement the UI, please comment out the data entry and "uncomment" the UI.
+There is a text based UI implemented, that can work either with creating a new spreadsheet, or by loading a previously made one (can be seen in git as Testx.sv2. Currently the main does run the UI but can run some example data entries if youd rather. To implement the example data entries, please comment out the UI and "uncomment" the data entries.
+
+## Please run script through main. Found in src/main/java/spreadsheet/Main.java
